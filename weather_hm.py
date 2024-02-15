@@ -6,7 +6,9 @@ from flask import Flask, jsonify, request
 
 API_TOKEN = <YOUR_API_TOKEN>
 
+#https://www.visualcrossing.com
 WEATHER_KEY = "YUOR_WEATHER_API"
+#https://api-ninjas.com
 INFO_KEY = "YOUR_NINJAS_API"
 
 app = Flask(__name__)
